@@ -1,0 +1,934 @@
+/* footer css */ /* end footer css */
+
+
+/* ------ Section 1 - Global Body, Font and Link Settings ------ */
+
+body {
+background: #fff;
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+font-size: 85%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial, Helvetica, sans-serif;
+background-color: transparent;
+color: #1d487e;
+}
+
+h2, h3, h4, h5, h6 {
+margin-top: 24px;
+}
+
+h1 {
+margin-top: 5px;
+font-size: 200%;
+}
+
+h2 {
+border-bottom: 1px solid #8f8fb3;
+padding-bottom: 5px;
+font-size: 150%;
+}
+
+h3 {
+font-size: 125%;
+}
+
+h4 {
+font-size: 100%;
+}
+
+blockquote {
+margin: 12px 56px;
+color: #006;
+font-size: 100%;
+line-height: 20px;
+font-family: 'Courier New', monospace;
+}
+
+code {
+color: navy;
+}
+
+img {
+border: 0;
+}
+
+
+
+p {
+margin: 1em 0;
+}
+
+
+
+
+/* -- General Link Styling -- */
+
+a,
+a:visited {
+color: #1d487e;
+text-decoration: underline;
+}
+
+a:visited {
+color: #1d487e;
+}
+
+a:hover {
+color: #1d487e;
+text-decoration: underline;
+}
+
+
+a img {
+border: 0;
+}
+
+/* ------ Section 2 - Global Page Structure ------- */
+
+#PageWrapper {
+width: 960px;
+background: #fff;
+}
+
+#Header {
+width: 960px;
+}
+
+#Header .Liner {
+min-height: 178px;
+_height: 178px; /* IE6 min-height fix */
+background: #fff url(../image-files/header-image.jpg) no-repeat;
+padding: 1px 0;
+}
+
+#ContentWrapper {
+float: left;
+padding: 0 0 0 220px;
+}
+
+#ContentColumn {
+width: 740px;
+}
+
+#ContentColumn .Liner {
+padding: 15px 19px 0;
+}
+
+#NavColumn {
+float: left;
+width: 220px;               /* STEP 2: to set left column at 180, set 1 less than 180 here */
+margin-left: -960px;
+}
+
+#NavColumn .Liner {
+padding-top: 20px;
+padding-left: 20px;
+}
+
+#ExtraColumn {
+display:none;
+float: left;
+width: 220px;               /* STEP 4: to set right columns at 180, set 1 less than 180 here */
+margin-left: -220px;
+}
+
+#ExtraColumn .Liner {
+padding-top: 20px;
+padding-left: 20px;
+}
+
+#Footer {
+clear: both;
+width: 960px;
+}
+
+#Footer .Liner {
+padding: 20px 20px 1px;
+border-top: 1px solid #ddd;
+background: #fff;
+}
+
+.Liner {
+padding: 1px 0;
+*zoom: 1;
+}
+
+
+/* ------ Section 3 - Page Structure Details ------ */
+
+#PageWrapper {
+margin: 0 auto;
+}
+
+#Footer {
+text-align: center;
+font-size: 85%;
+}
+
+#NavColumn {
+font-size: 90%;
+color: black;
+}
+
+#ExtraColumn {
+font-size: 90%;
+}
+
+#ExtraColumn h4,
+#NavColumn h4 {
+font-size: 130%;
+color: #fff;
+margin-top: 0;
+background: #8BA7C2 url(../image-files/nav-background.gif) no-repeat;
+line-height: 30px;
+padding-left: 10px;
+}
+
+#NavColumn p {
+font-size: 100%;
+color: black;
+margin-top: 0;
+width: 85%;
+}
+
+
+/* ------ Section 4 - Left Column Navigation ------ */
+
+.Navigation {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -- Nav Headers -- */
+
+#PageWrapper .Navigation h3 { /* Nav Headers rules to prevent sitedesigner h3 inheritance */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+font-style: normal;
+color: #1D487E;
+text-align: left;
+background-color: transparent;
+background-image: none;
+border-width: 0px 0px 1px 0px;
+border-style: none none solid none;
+border-color: #1D487E #1D487E #BBBBBB #1D487E;
+margin: 12px 0px 12px 0px;
+}
+
+.Navigation h3 {
+font-size: 110%;
+color: #1d487e;
+border-bottom: 1px solid #bbb;
+margin: 12px 0;
+padding: 0 0 5px 0;
+width: 180px;
+}
+
+#NavColumn h2 {
+width: 180px;
+}
+
+/* -- Nav List -- */
+
+.Navigation ul {
+list-style-type: none;
+padding: 0 0 8px 5px;
+margin: -6px 0 0 0;
+}
+
+.Navigation li {
+margin-bottom: 3px;
+font-size: 100%;
+}
+
+/* -- Navigation Link styles -- */
+
+.Navigation a,
+.Navigation a:visited {
+background: #fff url(../image-files/arrow-link.gif) no-repeat;
+color: #000;
+display: block;
+_zoom: 1;
+text-decoration: none;
+padding: 3px 0 3px 20px;
+}
+
+.Navigation a:hover {
+color: #069;
+padding: 3px 0 3px 15px;
+margin-left: 4px;
+}
+
+table#PageWrapper .Navigation ul a {
+min-width: 175px;
+_width: 175px;
+}
+
+
+/* ------ Section 5 - Additional Navigation ------ */
+
+/* -- Thumbnail-with-Caption Navigation -- */
+
+.ThumbnailLink {
+}
+
+.ThumbnailLink a:link {
+text-decoration: none;
+}
+
+.ThumbnailLink a:hover .Caption {
+color: red;
+}
+
+
+/* -- Horizontal Text NavBar -- */
+
+.ExtraNav {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.ExtraNav ul {
+list-style-type: none;
+padding: 0;
+}
+
+.ExtraNav ul li {
+text-align: center;
+border-right: 1px solid #bbb;
+display: inline;
+margin: 0;
+padding: 0 5px 0 2px;
+*padding: 0 3px 0 5px;
+}
+
+.ExtraNav a,
+.ExtraNav a:visited {
+color: #1d487e;
+text-decoration: none;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+
+.ExtraNav a:visited {
+color: #1d487e;
+text-decoration: none;
+}
+
+.ExtraNav a:hover {
+color: #000;
+}
+
+#Header .ExtraNav {
+font-size: 85%;
+padding-top: 30px;
+padding-left: 30px;
+width: 580px;
+}
+
+#Header .ExtraNav ul { 
+margin: 0;
+}
+
+#Footer .ExtraNav {
+margin: 12px auto;
+}
+
+
+
+/* ------ Section 6 - Boxes ------ */
+
+#PageWrapper .CalloutBox p { /* SiteDesigner inheritance prevention */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-variant: normal;
+color: #000000;
+}
+
+.CalloutBox {
+background-color: #fff;
+width: 85%;
+margin: 18px auto 24px auto;
+padding: 4px;
+color: black;
+border-top: 3px dotted #bbb;
+border-bottom: 3px dotted #bbb;
+}
+.CalloutBox img {
+margin-top: 10px;
+}
+
+div.CalloutBox p {
+margin: 13px;
+}
+
+p.CalloutBox {
+padding: 13px;
+}
+
+div.CalloutBox h1,
+div.CalloutBox h2,
+div.CalloutBox h3,
+div.CalloutBox h4,
+div.CalloutBox h5,
+div.CalloutBox h6 {
+margin: 13px 0 0 13px;
+}
+
+#PageWrapper .ReminderBox h4 { /* SiteDesigner inheritance prevention */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+font-style: normal;
+font-variant: normal;
+color: #1D487E;
+text-align: center;
+border: 0;
+margin: 0;
+background: #FFFFFF;
+}
+
+#PageWrapper .ReminderBox p { /* SiteDesigner inheritance prevention */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-variant: normal;
+color: #000066;
+}
+
+.ReminderBox {          
+background-color: #ddd;
+width: 24%;
+border: 1px solid #8f8fb3;
+margin: 0 0 12px 18px;
+float: right;             /* adding float enables text to flow around it */
+color: #006;
+}
+
+.ReminderBox h4 {
+margin: 0;
+padding: 2px;
+text-align: center;
+background-color: #fff;
+}
+
+.ReminderBox p {
+font-size: 80%;
+padding: 0 4px;
+line-height: 120%;
+}
+
+.AdSenseBoxLeft, .AdSenseBoxRight, .AdSenseBoxCenter468, .AdSenseBoxExtraColumn {
+padding: 5px;
+background-color: #fff;
+border: 0;
+}
+
+.AdSenseBoxLeft {
+margin: 0 18px 12px 18px;
+float: left;
+}
+
+.AdSenseBoxRight {
+margin: 0 18px 12px 18px;
+float: right;
+}
+
+.AdSenseBoxCenter468 {
+width: 468px;
+margin: 0 auto 12px auto;
+clear: both;
+}
+
+.AdSenseBoxExtraColumn {
+padding: 0;
+margin: 0 auto 12px auto;
+clear: both;
+}
+
+.ReturnToNavBox {
+background-color: #fff;
+width: 90%;
+border-top: 1px solid #8f8fb3;
+border-bottom: 1px solid #8f8fb3;
+margin: 0 auto 12px auto;
+padding: 4px;
+}
+
+/* -- Blog -- */
+
+.blogItItem {
+margin: 18px 0;
+border-bottom: 1px solid #ccc;
+}
+
+/* -- RSS Box -- */
+
+#NavColumn .RSSbox {
+margin-right: 20px;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+.RSSbox {
+border: 1px solid #8f8fb3;
+margin: 8px auto 10px 3px;
+padding: 2px 2px 10px 2px;
+font-size: 100%;
+font-weight: bold;
+color: #1d487e;
+line-height: 120%;
+text-align: center;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+/* -- Blog -- */
+
+.blogItItem {
+margin: 18px 0;
+border-bottom: 1px solid #ccc;
+}
+
+/* -- RSS Box -- */
+
+.RSSbox {
+margin: 8px auto 10px 3px;
+padding: 2px 2px 10px 2px;
+font-size: 100%;
+font-weight: bold;
+color: #000;
+line-height: 120%;
+text-align: center;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+.RSSbox a,
+.RSSbox a:visited {
+color: #C1433D;
+text-decoration: none;
+}
+
+.RSSbox a:visited {
+color: #C1433D;
+text-decoration: none;
+}
+
+.RSSbox a:hover {
+text-decoration: underline;
+}
+
+.RSSbox img {
+border: none
+}
+
+
+.RSSbox ul,
+.RSSbox ul li {
+margin: 0;
+padding: 0;
+}
+
+.RSSbox ul {
+list-style-type: none;
+clear: both;
+}
+
+.RSSbox ul li {
+text-align: center;
+}
+
+.RSSbox ul li img {
+border: 0;
+padding: 1px 0;
+}
+
+/* -- Ezine -- */
+
+#NavColumn .Ezine {
+margin-right: 20px;
+}
+
+.Ezine {
+border: 1px solid #666;
+background: #fff;
+padding: 4px;
+color: #000;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+.Ezine table {
+width: 100%;
+}
+
+.Ezine td {
+width: 50%;
+text-align: center;
+vertical-align: top;
+}
+
+.Ezine .EzineInputAbove {
+width: 100%;
+}
+
+.EzineInput input {
+width: 90%;
+max-width: 350px;
+}
+
+td.EzineLabel {
+text-align: right;
+font-weight: bold;
+}
+
+td.EzineLabelAbove {
+text-align: center;
+}
+
+.EzineDescription {
+text-align: center;
+}
+
+.EzineDescription small {
+font-size: 90%;
+}
+
+/* ------ Section 7 - Frequently Used Styles ------ */
+
+.Clear {
+clear: both;
+}
+
+.Caption {
+font-size: 85%;
+font-weight: bold;
+color: #000;
+display: block;
+line-height: 150%;
+margin-bottom:10px;
+}
+
+/* -- floats -- */
+
+#PageWrapper .ImageBlockCenter {
+margin: 1em 0;
+}
+
+.ItemRight {
+float: right;
+margin: 2px 0 12px 18px;
+text-align: center;
+}
+
+.ItemCenter {
+margin: 2px auto 12px auto;
+text-align: center;
+clear: both;
+}
+
+.ItemLeft {
+float: left;
+margin: 2px 18px 12px 0;
+text-align: center;
+}
+
+
+/* -- TOC -- */
+
+.TOC dt {
+font-weight: bold;
+}
+.TOC dd {
+margin-bottom:20px;
+}
+
+/* ------ Section 8 - Table Layout Styles ----- */
+
+td#Header,
+td#Footer,
+td#NavColumn,
+td#ContentWrapper,
+td#ContentColumn,
+td#ExtraColumn {
+vertical-align: top;
+}
+
+
+td#ContentColumn,
+td#ExtraColumn,
+td#NavColumn {
+float: none;
+}
+/***** C2 styles *****/
+.c2Form {
+    padding:8px;
+    border:1px solid #ddd;
+}
+
+.InvShelp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ffc;
+}
+
+.InvShelpT {
+    background:#ddd; 
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin:0px;
+    padding:0px;
+    text-align:left;
+}
+
+a:link.InvShelp {text-decoration:none; color:#000;}
+
+.InvShelpbox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ffc;
+    padding: 2px;
+    border: 1px solid #666;
+}
+
+.InvSquestions {
+    font-weight:bold;
+    font-size:14px;
+    margin:0;
+}
+
+.titleInput {
+    width:80%;     
+    padding-top:4px;
+    margin:0;
+}
+
+.storyInput {
+    width:98%;
+    padding-top:4px;
+    margin:0;
+}
+
+.otherText {
+}
+  
+.dividerRule {
+    border-top:1px solid #ddd;
+}
+
+/***** Blog It! styles *****/
+
+.blogItItem .blogItThumbnail {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 150px;
+}
+
+.blogItItem .blogItReadMore {
+    clear: both;
+}
+
+/***********************************************/
+/* Customizations from SiteDesigner start here */
+/***********************************************/
+
+body {}
+
+#Footer .Liner p {
+}
+
+#Footer .Liner {}
+
+#Header .Liner {    background-image: url("/image-files/headazzz-3.png");            min-height: 79px;
+    _height: 79px; /* IE6 min-height fix */}
+
+#NavColumn {}
+
+#NavColumn .Liner {}
+
+#ExtraColumn .Liner {}
+#ExtraColumn {}
+
+
+#ContentColumn {}
+
+#PageWrapper {}
+
+#PageWrapper h1 {    margin-top: -1px;    margin-bottom: -1px;}
+
+
+#PageWrapper h2 {    margin-top: 4px;    margin-bottom: 4px;}
+
+
+#PageWrapper h3 {
+}
+
+
+#PageWrapper h4 {}
+.Navigation h3,
+#PageWrapper .Navigation h3 {}
+
+.Navigation a,
+#PageWrapper .Navigation a {}
+
+.Navigation a:link,
+#PageWrapper .Navigation a:link {}
+
+.Navigation a:visited,
+#PageWrapper .Navigation a:visited {}
+
+.Navigation a:hover,
+#PageWrapper .Navigation a:hover {}
+.TOC {}
+
+.Ezine {
+    padding: 4px 0;
+}
+
+#PageWrapper .RSSbox {}
+#PageWrapper .RSSbox .questionMark {}
+
+#PageWrapper .ImageBlock img {}
+
+
+#ContentColumn ol {}
+
+#ContentColumn ol li {}
+
+#ContentColumn ul {}
+
+#ContentColumn ul li {}
+
+#PageWrapper .CalloutBox p {}
+#PageWrapper .CalloutBox {}
+
+#PageWrapper .ReminderBox {    }
+
+#PageWrapper .ReminderBox h4 {}
+
+#PageWrapper .ReminderBox p {}
+
+#ContentColumn a {}
+
+#ContentColumn a:link {}
+
+#ContentColumn a:visited {}
+
+#ContentColumn a:hover {}
+
+
+/* overrides design CSS max-width: 100% for imgs */
+div#PageWrapper img,
+table#PageWrapper img {
+    max-width: none;
+}
+
+/* none-JavaScript fix for too large images */
+#PageWrapper .ImageBlock img {
+    max-width: 100%;
+}
+
+/* IE9 and Chrome (~20) margin fix for block images with margin: auto */
+.ImageBlock img {
+    margin: 0;
+}
+
+#PageWrapper .ImageBlock {
+    overflow: hidden;
+}
+
+#PageWrapper .ImageBlockLeft {
+    float: left;
+    text-align: center;
+}
+
+#PageWrapper .ImageBlockLeft img {
+    margin-right: 5px;
+}
+
+#PageWrapper .ImageBlockRight {
+    float: right;
+    text-align: center;
+}
+
+#PageWrapper .ImageBlockRight img {
+    margin-left: 5px;
+}
+
+#PageWrapper .ImageBlockCenter {
+    text-align: center;
+}
+
+#PageWrapper .noalignment {
+    float: left;
+}
+
+#PageWrapper .pinit {
+    text-align: center;
+}
+
+#PageWrapper .FormBlockLeft .formwrapper {
+    float: left;
+    margin-right: 5px;
+}
+
+#PageWrapper .FormBlockRight .formwrapper {
+    float: right;
+    margin-left: 5px;
+}
+
+#PageWrapper .FormBlockCenter .formwrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* center Facebook like and comment widgets */
+#PageWrapper .fb-like,
+#PageWrapper .fb-comments {
+    display: block;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* special classname for forms */
+#PageWrapper .formbody td {
+    padding: 2px;
+}
+/* remove graphical bullets in the C2 Thank you notifications section */
+#notificationOptions,
+#notificationOptions li {
+    list-style-type: none;
+}
+
+.socializeIt,
+.formbody,
+.c2_invitation {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.googlePlusOne {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Advanced CSS provided by user */#ContentColumn {
+width: 940px; /* To change the width of your content column */
+margin-left: -210px;
+padding-left:0px; /* To change how far from the left the column will start */
+}
+
+#NavColumn {
+width: 100px; /* To change the width of your navigation column */
+margin-left: 0px; /* To set how far from the left the column will start, calculated 
+from where the content column ends. Notice the minus (-) sign! */
+border-right: 0px;
+}
