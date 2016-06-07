@@ -236,9 +236,7 @@ function getrandomlink($service)
 <section class="mbr-section" id="content1-10">
     <div class="mbr-section__container container mbr-section__container--last">
         <div class="row">
-            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>If you are an advanced user, just set your DNS to : 108.171.182.159   and   108.171.177.124 , signup and test the service.</p>
-              <p>New region available : GREECE (watch US netflix in Greece, or Greek Netflix in the US)</p>
-            </div>
+            
         </div>
     </div>
 </section>
