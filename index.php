@@ -13,53 +13,55 @@
   <link rel="stylesheet" href="assets/mobirise/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 <?php
-if ( !isset($_GET['country']) ){
-$ip_address=$_SERVER['REMOTE_ADDR'];
-$geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
-$addrDetailsArr = unserialize(file_get_contents($geopluginURL));
-$city = $addrDetailsArr['geoplugin_city'];
-$country = $addrDetailsArr['geoplugin_countryName'];
-if(!$city){
-   $city='Not Define';
-}if(!$country){
-   $country='Not Define';
-}
-}else{
+if (!isset($_GET['country'])) {
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+    $geopluginURL = 'http://www.geoplugin.net/php.gp?ip='.$ip_address;
+    $addrDetailsArr = unserialize(file_get_contents($geopluginURL));
+    $city = $addrDetailsArr['geoplugin_city'];
+    $country = $addrDetailsArr['geoplugin_countryName'];
+    if (!$city) {
+        $city = 'Not Define';
+    }
+    if (!$country) {
+        $country = 'Not Define';
+    }
+} else {
     $country = $_GET['country'];
 }
 
-if ( !isset($_GET['service']) ){
-	 $service = "NETFLIX";
-}else{
+if (!isset($_GET['service'])) {
+    $service = 'NETFLIX';
+} else {
     $service = $_GET['service'];
 }
 
-if ( !isset($_GET['offeredcountry']) ){
-	 $offeredcountry = "US";
-}else{
+if (!isset($_GET['offeredcountry'])) {
+    $offeredcountry = 'US';
+} else {
     $offeredcountry = $_GET['offeredcountry'];
 }
 
-if ( !isset($_GET['device']) ){
-	 $device = "ROKU";
-}else{
+if (!isset($_GET['device'])) {
+    $device = 'ROKU';
+} else {
     $device = $_GET['device'];
 }
 $service1 = 'NETFLIX';
 $service2 = 'HULU';
-function getrandomlink($service) {
-$service1 = 'NETFLIX';
-$service2 = 'HULU';
-$countries_content = file("countries.txt");
-$devices_content = file("devices.txt");
-$offeredcountries_content = file("offeredcountries.txt");
-$services_content = file("services.txt");
-$random_country = strtolower($countries_content[array_rand($countries_content)]);
-$random_device = strtolower($devices_content[array_rand($devices_content)]);
-$random_offeredcountry = $offeredcountries_content[array_rand($offeredcountries_content)];
-$random_service = strtolower($services_content[array_rand($services_content)]);
-$linkblurb = ' <li><a class="mbr-contacts__link text-gray" href="index.php?offeredcountry='.$random_offeredcountry.'&service='.$random_service.'&country='.$random_country.'&device='.$random_device.'">How to get '.$random_offeredcountry.' '.$random_service.' in '.$random_country.' through your '.$random_device.'</a></li>';
-echo $linkblurb;
+function getrandomlink($service)
+{
+    $service1 = 'NETFLIX';
+    $service2 = 'HULU';
+    $countries_content = file('countries.txt');
+    $devices_content = file('devices.txt');
+    $offeredcountries_content = file('offeredcountries.txt');
+    $services_content = file('services.txt');
+    $random_country = strtolower($countries_content[array_rand($countries_content)]);
+    $random_device = strtolower($devices_content[array_rand($devices_content)]);
+    $random_offeredcountry = $offeredcountries_content[array_rand($offeredcountries_content)];
+    $random_service = strtolower($services_content[array_rand($services_content)]);
+    $linkblurb = ' <li><a class="mbr-contacts__link text-gray" href="index.php?offeredcountry='.$random_offeredcountry.'&service='.$random_service.'&country='.$random_country.'&device='.$random_device.'">How to get '.$random_offeredcountry.' '.$random_service.' in '.$random_country.' through your '.$random_device.'</a></li>';
+    echo $linkblurb;
 }
 ?>
 <title>How To Get US <?php echo $service; ?> if you are <?php echo $offeredcountry; ?> ( Get 50,000 More Shows & Movies)</title>
@@ -125,7 +127,7 @@ echo $linkblurb;
 <section class="mbr-section" id="content1-5">
     <div class="mbr-section__container container mbr-section__container--isolated">
         <div class="row">
-            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Today I will be showing you how to get <?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?> or any country with a service called Blockless.</p>
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Today I will be showing you how to get <?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?> or any country with a service called unblock-us.</p>
             <p>The guide below will teach you how to get on <?php echo $offeredcountry; ?> <?php echo $service; ?> in 4 easy steps. It works for me and will work in any country!! There is no catch and you start free, no credit card  required.</p><p><br></p>
           <p>FACT: <?php echo $offeredcountry; ?> Netflix has a limited amount of movies/series/documentaries etc. </p>
           <p>USA Netflix has 50,000+. </p>
@@ -151,11 +153,11 @@ echo $linkblurb;
                 </div>
                 <div class="mbr-section__container mbr-section__container--middle">
                     <div class="mbr-article mbr-article--wysiwyg">
-                        <p>Click <a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">here</a> to open <a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">Blockless</a> and create a free account</p>
+                        <p>Click <a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">here</a> to open <a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">unblock-us</a> and create a free account</p>
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">unblock-us</a></div>
                 </div>
             </div>
             <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">
@@ -173,7 +175,7 @@ echo $linkblurb;
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">unblock-us</a></div>
                 </div>
             </div>
             <div class="clearfix visible-sm-block"></div>
@@ -192,7 +194,7 @@ echo $linkblurb;
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">unblock-us</a></div>
                 </div>
             </div>
 
@@ -211,7 +213,7 @@ echo $linkblurb;
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">unblock-us</a></div>
                 </div>
             </div>
 
@@ -225,8 +227,8 @@ echo $linkblurb;
     <div class="mbr-section__container container mbr-section__container--first">
         <div class="row">
             <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">
-              <p>That's all there is to it. After setting up Blockless on your device you will have <?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?> on your account, or in whatever country you set it up on. This will unlock around 12,000 new shows &amp; movies on your <?php echo $service; ?> account! Not to mention all the other countries you can unlock and the Smart VPN features that beat your government's censorship!</p><p><br></p>
-            <p>After one week you can upgrade your Blockless account and get <?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?> forever for only a $4.95 a month. If you decide to upgrade, simply login to your Blockless account and click "Upgrade to Paid Subscription" button. If you want to cancel, just canel through paypal and resume when needed.</p></div>
+              <p>That's all there is to it. After setting up unblock-us on your device you will have <?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?> on your account, or in whatever country you set it up on. This will unlock around 12,000 new shows &amp; movies on your <?php echo $service; ?> account! Not to mention all the other countries you can unlock and the Smart VPN features that beat your government's censorship!</p><p><br></p>
+            <p>After one week you can upgrade your unblock-us account and get <?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?> forever for only a $4.95 a month. If you decide to upgrade, simply login to your unblock-us account and click "Upgrade to Paid Subscription" button. If you want to cancel, just canel through paypal and resume when needed.</p></div>
         </div>
     </div>
 </section>
