@@ -12,12 +12,12 @@
   <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="assets/mobirise/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-<?php 
+<?php
 if ( !isset($_GET['country']) ){
 $ip_address=$_SERVER['REMOTE_ADDR'];
 $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
-$addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
-$city = $addrDetailsArr['geoplugin_city']; 
+$addrDetailsArr = unserialize(file_get_contents($geopluginURL));
+$city = $addrDetailsArr['geoplugin_city'];
 $country = $addrDetailsArr['geoplugin_countryName'];
 if(!$city){
    $city='Not Define';
@@ -72,22 +72,22 @@ echo $linkblurb;
 <meta property="og:image" content="assets/images/streaming-services-usa-600x400-9.jpg" />
 </head>
 <body>
-<section class="engine"><a rel="nofollow" href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083">Get US Netflix</a></section>
+<section class="engine"><a rel="nofollow" href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1">Get US Netflix</a></section>
 <section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-1">
     <div class="mbr-navbar__section mbr-section">
         <div class="mbr-section__container container">
             <div class="mbr-navbar__container">
                 <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                     <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
-                        <span class="mbr-brand__logo"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><img class="mbr-navbar__brand-img mbr-brand__img" src="assets/images/untitled-design-1-300x300-78.jpg" alt="How to get Netflix"></a></span>
-                        <span class="mbr-brand__name"><a class="mbr-brand__name text-white" href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083">How to get <?php echo $service; ?></a></span>
+                        <span class="mbr-brand__logo"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><img class="mbr-navbar__brand-img mbr-brand__img" src="assets/images/untitled-design-1-300x300-78.jpg" alt="How to get Netflix"></a></span>
+                        <span class="mbr-brand__name"><a class="mbr-brand__name text-white" href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1">How to get <?php echo $service; ?></a></span>
                     </span>
                 </div>
                 <div class="mbr-navbar__hamburger mbr-hamburger text-white"><span class="mbr-hamburger__line"></span></div>
                 <div class="mbr-navbar__column mbr-navbar__menu">
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
-                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank">CONTACT</a></li></ul></div>
-                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank">FREE SIGNUP</a></li></ul></div>
+                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">CONTACT</a></li></ul></div>
+                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">FREE SIGNUP</a></li></ul></div>
                     </nav>
                 </div>
             </div>
@@ -112,9 +112,9 @@ echo $linkblurb;
             <div class="col-sm-8 col-sm-offset-2">
                 <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
 
-                    <div><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><img class="mbr-figure__img" src="assets/images/streaming-services-usa-600x400-9.jpg"></a></div>
+                    <div><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><img class="mbr-figure__img" src="assets/images/streaming-services-usa-600x400-9.jpg"></a></div>
                     <figcaption class="mbr-figure__caption">
-                        <small class="mbr-figure__caption-small"><p><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?></a></p></small>
+                        <small class="mbr-figure__caption-small"><p><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><?php echo $offeredcountry; ?> <?php echo $service; ?> in <?php echo $country; ?></a></p></small>
                     </figcaption>
                 </figure>
             </div>
@@ -136,13 +136,13 @@ echo $linkblurb;
 </section>
 
 <section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="features1-6" style="background-color: rgb(255, 255, 255);">
-    
-    
+
+
     <div class="mbr-section__container container mbr-section__container--std-top-padding">
         <div class="mbr-section__row row">
             <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">
                 <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><img class="mbr-figure__img" src="assets/images/1-128x92-73.png"></a></figure>
+                    <figure class="mbr-figure"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><img class="mbr-figure__img" src="assets/images/1-128x92-73.png"></a></figure>
                 </div>
                 <div class="mbr-section__container mbr-section__container--middle">
                     <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
@@ -151,16 +151,16 @@ echo $linkblurb;
                 </div>
                 <div class="mbr-section__container mbr-section__container--middle">
                     <div class="mbr-article mbr-article--wysiwyg">
-                        <p>Click <a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank">here</a> to open <a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank">Blockless</a> and create a free account</p>
+                        <p>Click <a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">here</a> to open <a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank">Blockless</a> and create a free account</p>
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
                 </div>
             </div>
             <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">
                 <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><img class="mbr-figure__img" src="assets/images/2-164x64-58.png"></a></figure>
+                    <figure class="mbr-figure"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><img class="mbr-figure__img" src="assets/images/2-164x64-58.png"></a></figure>
                 </div>
                 <div class="mbr-section__container mbr-section__container--middle">
                     <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
@@ -173,13 +173,13 @@ echo $linkblurb;
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
                 </div>
             </div>
             <div class="clearfix visible-sm-block"></div>
             <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">
                 <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><img class="mbr-figure__img" src="assets/images/3-216x72-30.png"></a></figure>
+                    <figure class="mbr-figure"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><img class="mbr-figure__img" src="assets/images/3-216x72-30.png"></a></figure>
                 </div>
                 <div class="mbr-section__container mbr-section__container--middle">
                     <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
@@ -192,13 +192,13 @@ echo $linkblurb;
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
                 </div>
             </div>
-            
+
             <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">
                 <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><img class="mbr-figure__img" src="assets/images/4-361x162-72.png"></a></figure>
+                    <figure class="mbr-figure"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><img class="mbr-figure__img" src="assets/images/4-361x162-72.png"></a></figure>
                 </div>
                 <div class="mbr-section__container mbr-section__container--middle">
                     <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
@@ -211,12 +211,12 @@ echo $linkblurb;
                     </div>
                 </div>
                 <div class="mbr-section__container mbr-section__container--last">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
+                    <div class="mbr-buttons mbr-buttons--center"><a href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default" target="_blank">Blockless</a></div>
                 </div>
             </div>
-            
-            
-            
+
+
+
         </div>
     </div>
 </section>
@@ -242,7 +242,7 @@ echo $linkblurb;
 </section>
 
 <section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="social-buttons1-2" style="background-color: rgb(255, 255, 255);">
-    
+
 
     <div class="mbr-section__container container">
         <div class="mbr-header mbr-header--inline row">
@@ -253,11 +253,11 @@ echo $linkblurb;
                 <div class="mbr-social-likes social-likes_style-1" data-counters="true">
                     <div class="mbr-social-icons__icon social-likes__icon facebook socicon-bg-facebook" title="Share link on Facebook">
                         <i class="socicon socicon-facebook"></i>
-                        
+
                     </div>
                     <div class="mbr-social-icons__icon social-likes__icon plusone socicon-bg-googleplus" title="Share link on Google+">
                         <i class="socicon socicon-googleplus"></i>
-                        
+
                     </div>
                     <div class="mbr-social-icons__icon social-likes__icon twitter socicon-bg-twitter" title="Share link on Twitter">
                         <i class="socicon socicon-twitter"></i>
@@ -270,7 +270,7 @@ echo $linkblurb;
 
 <section class="mbr-section mbr-section--relative mbr-section--short-paddings" id="msg-box2-12" style="background-color: rgb(255, 255, 255);">
 
-    
+
 
     <div class="mbr-section__container mbr-section__container--isolated container">
         <div class="row">
@@ -281,11 +281,11 @@ echo $linkblurb;
                             <h3 class="mbr-header__text">Go Signup now</h3>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__right col-sm-4">
                     <div class="mbr-section__container">
-                        <div class="mbr-buttons mbr-buttons--auto-align mbr-buttons--top mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-default" href="http://blockless.go2cloud.org/aff_c?offer_id=17&amp;aff_id=1083" target="_blank"><?php echo $offeredcountry; ?> <?php echo $service; ?></a></div>
+                        <div class="mbr-buttons mbr-buttons--auto-align mbr-buttons--top mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-default" href="https://www.unblock-us.com?offer_id=4&aff_id=2333&url_id=19&tiny_url=1" target="_blank"><?php echo $offeredcountry; ?> <?php echo $service; ?></a></div>
                     </div>
                 </div>
             </div>
@@ -295,7 +295,7 @@ echo $linkblurb;
 </section>
 
 <section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="contacts3-13" style="background-color: rgb(60, 60, 60);">
-    
+
     <div class="mbr-section__container container">
         <div class="mbr-contacts mbr-contacts--wysiwyg row">
             <div class="col-sm-8">
@@ -332,12 +332,12 @@ echo $linkblurb;
                     <div class="hide" data-form-alert-success="true">Thanks for filling out form!</div>
                 </div>
                 <form action="https://mobirise.com/" method="post" data-form-title="MESSAGE">
-                    
-                    
+
+
                     <div class="form-group">
                         <input type="email" class="form-control input-sm input-inverse" name="email" required="" placeholder="Email*" data-form-field="Email">
                     </div>
-                    
+
                     <div class="form-group">
                         <textarea class="form-control input-sm input-inverse" name="message" placeholder="Message" rows="4" data-form-field="Message"></textarea>
                     </div>
@@ -358,24 +358,16 @@ echo $linkblurb;
   <![endif]-->
   <script src="assets/mobirise/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=10858032; 
-var sc_invisible=1; 
-var sc_security="bda1c5a6"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="web statistics"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="http://c.statcounter.com/10858032/0/bda1c5a6/1/"
-alt="web statistics"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
-<img src="http://blockless.go2cloud.org/aff_i?offer_id=17&aff_id=1083" width="1" height="1" />
-  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-57648878-14', 'auto');
+    ga('send', 'pageview');
+
+  </script><img src="http://unblockus.go2cloud.org/aff_i?offer_id=4&aff_id=2333&url_id=19" width="1" height="1" />
+
 </body>
 </html>
